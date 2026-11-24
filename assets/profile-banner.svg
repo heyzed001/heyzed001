@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Abdulaziz Shina — Data Forensics, Analytics and Engineering</title>
+  <desc id="desc">A dark navy banner with connected data nodes and a professional headline.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#101b32"/>
+      <stop offset="100%" stop-color="#172d4b"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#54d6c8"/>
+      <stop offset="100%" stop-color="#6ca8ff"/>
+    </linearGradient>
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M34 0H0V34" fill="none" stroke="#ffffff" stroke-opacity=".055" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="360" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="360" rx="24" fill="url(#grid)"/>
+  <g fill="none" stroke="url(#accent)" stroke-width="2.5" opacity=".8">
+    <path d="M760 78L865 130L1000 84L1090 155L980 238L845 220L760 285"/>
+    <path d="M865 130L845 220M1000 84L980 238M1090 155L1125 260"/>
+    <path d="M760 78L720 165L845 220"/>
+  </g>
+  <g fill="#172d4b" stroke="url(#accent)" stroke-width="3">
+    <circle cx="760" cy="78" r="9"/><circle cx="865" cy="130" r="9"/>
+    <circle cx="1000" cy="84" r="9"/><circle cx="1090" cy="155" r="9"/>
+    <circle cx="980" cy="238" r="9"/><circle cx="845" cy="220" r="9"/>
+    <circle cx="760" cy="285" r="9"/><circle cx="720" cy="165" r="9"/>
+    <circle cx="1125" cy="260" r="9"/>
+  </g>
+  <g fill="#54d6c8" opacity=".18">
+    <circle cx="865" cy="130" r="28"/><circle cx="980" cy="238" r="34"/>
+    <circle cx="760" cy="285" r="22"/>
+  </g>
+  <text x="76" y="112" fill="#8be4db" font-family="Arial, Helvetica, sans-serif" font-size="19" letter-spacing="4">DATA • AUTOMATION • ENGINEERING</text>
+  <text x="72" y="185" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="700">Abdulaziz Shina</text>
+  <text x="76" y="232" fill="#d8e5f7" font-family="Arial, Helvetica, sans-serif" font-size="25">Data Forensics &amp; Analytics</text>
+  <text x="76" y="278" fill="#a9bdd7" font-family="Arial, Helvetica, sans-serif" font-size="18">Turning raw data into reliable insights and practical systems.</text>
+  <rect x="76" y="310" width="150" height="4" rx="2" fill="url(#accent)"/>
+</svg>
