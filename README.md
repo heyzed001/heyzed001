@@ -44,21 +44,42 @@ I enjoy taking a messy or repetitive workflow, understanding what is happening u
 
 <h2>Featured projects</h2>
 
-### 1. Automated SPSS Cross-Tabulation & Reporting
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>01 · Automated SPSS Reporting</h3>
+      <p><a href="https://github.com/heyzed001/Python-Script-For-Custom-Tables"><strong>Python Script for Custom Tables ↗</strong></a></p>
+      <p><img src="assets/spss-reporting-workflow.svg" alt="Workflow overview: SPSS file to Python processing to formatted Excel report" width="100%" /></p>
+      <p>Reads SPSS <code>.sav</code> files and automates survey cross-tabulations and formatted Excel reporting. Supports counts, percentages, multi-response questions, recoding, category merging, and reusable table-generation logic.</p>
+      <p><strong>Tools:</strong> Python · pandas · pyreadstat · openpyxl · SPSS</p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>02 · AWS Weather ETL Pipeline</h3>
+      <p><a href="https://github.com/heyzed001/aws-weather-etl-pipeline"><strong>View the AWS project ↗</strong></a></p>
+      <p>A scheduled, serverless pipeline that retrieves weather data for Lagos from the OpenWeather API every morning. EventBridge triggers Lambda; raw JSON is stored in S3, while processed records are loaded into RDS for historical SQL analysis.</p>
+      <p><strong>Tools:</strong> Python · AWS Lambda · EventBridge · S3 · RDS · REST API · SQL</p>
+    </td>
+  </tr>
+</table>
 
-[**Python Script for Custom Tables**](https://github.com/heyzed001/Python-Script-For-Custom-Tables)
-
-A Python reporting workflow that reads SPSS `.sav` files and generates formatted Excel tables. It supports counts, percentages, multi-response questions, recoding, category merging, and reusable table-generation logic.
-
-**Tools:** Python · pandas · pyreadstat · openpyxl · SPSS
-
-### 2. AWS Weather Data ETL Pipeline
-
-[**AWS Weather ETL Pipeline**](https://github.com/heyzed001/aws-weather-etl-pipeline)
-
-A scheduled, serverless pipeline that retrieves weather data for Lagos from the OpenWeather API every morning. Amazon EventBridge triggers an AWS Lambda function; raw JSON is stored in Amazon S3, while processed records are loaded into Amazon RDS for historical SQL analysis.
-
-**Tools:** Python · AWS Lambda · EventBridge · S3 · RDS · REST API · SQL
+<h3>AWS project snapshots</h3>
+<p align="center">
+  <a href="https://github.com/heyzed001/aws-weather-etl-pipeline/blob/main/event-bridge.png">
+    <img src="https://raw.githubusercontent.com/heyzed001/aws-weather-etl-pipeline/main/event-bridge.png" alt="Amazon EventBridge schedule screenshot from the weather ETL project" width="48%" />
+  </a>
+  <a href="https://github.com/heyzed001/aws-weather-etl-pipeline/blob/main/lamda.png">
+    <img src="https://raw.githubusercontent.com/heyzed001/aws-weather-etl-pipeline/main/lamda.png" alt="AWS Lambda screenshot from the weather ETL project" width="48%" />
+  </a>
+</p>
+<p align="center">
+  <a href="https://github.com/heyzed001/aws-weather-etl-pipeline/blob/main/S3-bucket.png">
+    <img src="https://raw.githubusercontent.com/heyzed001/aws-weather-etl-pipeline/main/S3-bucket.png" alt="Amazon S3 bucket screenshot from the weather ETL project" width="48%" />
+  </a>
+  <a href="https://github.com/heyzed001/aws-weather-etl-pipeline/blob/main/RDS.png">
+    <img src="https://raw.githubusercontent.com/heyzed001/aws-weather-etl-pipeline/main/RDS.png" alt="Amazon RDS screenshot from the weather ETL project" width="48%" />
+  </a>
+</p>
+<p align="center"><sub>Actual AWS console screenshots from the project repository. Select an image to open its source.</sub></p>
 
 <h2>Areas I'm growing in</h2>
 
@@ -73,6 +94,14 @@ A scheduled, serverless pipeline that retrieves weather data for Lagos from the 
 <p align="center">
   <img height="165" src="https://github-readme-stats.vercel.app/api?username=heyzed001&show_icons=true&hide_border=true&rank_icon=github&theme=transparent" alt="GitHub stats" />
   <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=heyzed001&layout=compact&hide_border=true&theme=transparent" alt="Top languages" />
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/heyzed001/heyzed001/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/heyzed001/heyzed001/output/github-contribution-grid-snake.svg" />
+    <img alt="Animated snake moving across the GitHub contribution graph" src="https://raw.githubusercontent.com/heyzed001/heyzed001/output/github-contribution-grid-snake.svg" width="100%" />
+  </picture>
 </p>
 
 ---
